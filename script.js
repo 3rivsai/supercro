@@ -33,9 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 40) {
-            navbar.style.borderBottomColor = 'rgba(255,255,255,0.1)';
+            navbar.style.borderBottomColor = 'rgba(0,0,0,0.12)';
         } else {
-            navbar.style.borderBottomColor = 'rgba(255,255,255,0.06)';
+            navbar.style.borderBottomColor = 'rgba(0,0,0,0.08)';
         }
     }, { passive: true });
 });
